@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+{% block body %}
+<br><br><br>
+<form form action="/graficar/seleccion" method="POST">
+    <div class="container">
+        <h3>Grafico generado</h3>
+        {{ imagen }}
+    </div>
+</form>
+    
+{% endblock %}
